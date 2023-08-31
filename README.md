@@ -2,7 +2,7 @@
 
 ```
 npm install - Install dependencies
-npm run dev - Frontend project in dev mode (vite)
+npm run start - Frontend project in dev mode
 ```
 
 ---
