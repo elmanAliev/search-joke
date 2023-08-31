@@ -1,0 +1,40 @@
+:root {
+  --font-family-main: "Fira Sans", "Times New Roman", serif;
+
+  // s
+  --font-size-s: 14px;
+  --font-line-s: normal;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+
+  // m
+  --font-size-m: 16px;
+  --font-line-m: normal;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  // l
+  --font-size-l: 20px;
+  --font-line-l: 30px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  // xl
+  --font-size-xl: 22px;
+  --font-line-xl: normal;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  // цвета
+  --blue: #656ec2;
+  --white: #fff;
+  --black: #282626;
+  --grey: #767676;
+  --red: #e07878;
+
+  // --box-shadow
+  --box-shadow: 0 7px 12px rgb(100 100 111 / 20%);
+}
+
+$breakpoints: (
+  "sm": 420px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1600px,
+);

@@ -1,0 +1,8 @@
+@import "reset";
+@import "global";
+
+body {
+  font: var(--font-l);
+  color: var(--black);
+  background: var(--white);
+}

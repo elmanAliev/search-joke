@@ -1,0 +1,32 @@
+@import "../../../../app/styles/global.scss";
+
+@mixin jokeItemMixin {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--box-shadow);
+}
+
+.firstRowItem {
+  @include jokeItemMixin;
+  padding: 40px 40px 25px;
+
+  @media (max-width: map-get($breakpoints, "xl")) {
+    padding: 30px 30px 25px;
+  }
+}
+
+.otherRowsItem {
+  @include jokeItemMixin;
+  padding: 30px 30px 25px;
+}
+
+.text {
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  align-self: "flex-end";
+}

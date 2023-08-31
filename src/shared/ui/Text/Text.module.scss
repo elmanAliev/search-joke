@@ -1,0 +1,39 @@
+.primary {
+  color: var(--black);
+}
+
+.secondary {
+  color: var(--grey);
+}
+
+.error {
+  color: var(--red);
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.size_s {
+  font: var(--font-s);
+}
+
+.size_m {
+  font: var(--font-m);
+}
+
+.size_l {
+  font: var(--font-l);
+}
+
+.size_xl {
+  font: var(--font-xl);
+}

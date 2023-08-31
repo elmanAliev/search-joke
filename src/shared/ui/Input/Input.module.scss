@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 19px 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: var(--blue);
+  font: var(--font-xl);
+  font-weight: 700;
+
+  &.focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: var(--blue);
+  }
+}

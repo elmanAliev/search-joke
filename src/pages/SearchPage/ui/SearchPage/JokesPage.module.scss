@@ -1,0 +1,20 @@
+@import "../../../../app/styles/global.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px 168px 20px;
+
+  @media (max-width: map-get($breakpoints, "xl")) {
+    padding: 64px 64px 20px;
+  }
+
+  @media (max-width: map-get($breakpoints, "lg")) {
+    padding: 32px 32px 20px;
+  }
+
+  @media (max-width: map-get($breakpoints, "md")) {
+    padding: 16px;
+  }
+}
